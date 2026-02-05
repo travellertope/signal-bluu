@@ -19,7 +19,7 @@ const Navbar = () => {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2">
             <ShieldCheck className="w-6 h-6 text-accent" />
-            <span className="text-xl font-bold text-primary">TrustDraft</span>
+            <span className="text-xl font-bold text-primary">Signal</span>
           </a>
 
           {/* Desktop Navigation */}

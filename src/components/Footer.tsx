@@ -16,7 +16,7 @@ const Footer = () => {
           <div className="flex flex-col items-center md:items-start gap-3">
             <a href="#" className="flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-accent" />
-              <span className="text-lg font-bold text-primary">TrustDraft</span>
+              <span className="text-lg font-bold text-primary">Signal</span>
             </a>
             <p className="text-sm text-muted-foreground">
               Verified B2B Content.
@@ -39,7 +39,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border text-center">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} TrustDraft. All rights reserved.
+            © {new Date().getFullYear()} Signal. All rights reserved.
           </p>
         </div>
       </div>
