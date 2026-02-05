@@ -80,11 +80,11 @@ const Hero = () => {
               </div>
             </div>
 
-            {/* TrustDraft Side */}
+            {/* Signal Side */}
             <div className="bg-emerald/5 p-8 relative">
               <div className="absolute top-4 left-4 flex items-center gap-2">
                 <Lock className="w-4 h-4 text-accent" />
-                <span className="text-xs font-medium text-accent uppercase tracking-wide">TrustDraft</span>
+                <span className="text-xs font-medium text-accent uppercase tracking-wide">Signal</span>
               </div>
               <div className="mt-8 space-y-3">
                 <div className="h-3 bg-accent/30 rounded w-full" />
