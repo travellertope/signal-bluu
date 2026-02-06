@@ -59,12 +59,12 @@ const CybersecurityPage = () => {
             <span className="text-xl font-bold">Signal</span>
           </Link>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#pain" className="text-sm text-gray-400 hover:text-white transition-colors">The Problem</a>
-            <a href="#protocol" className="text-sm text-gray-400 hover:text-white transition-colors">Our Protocol</a>
-            <a href="#capabilities" className="text-sm text-gray-400 hover:text-white transition-colors">Capabilities</a>
-            <a href="#faq" className="text-sm text-gray-400 hover:text-white transition-colors">FAQ</a>
+            <a href="#pain" className="text-sm text-gray-300 hover:text-white transition-colors">The Problem</a>
+            <a href="#protocol" className="text-sm text-gray-300 hover:text-white transition-colors">Our Protocol</a>
+            <a href="#capabilities" className="text-sm text-gray-300 hover:text-white transition-colors">Capabilities</a>
+            <a href="#faq" className="text-sm text-gray-300 hover:text-white transition-colors">FAQ</a>
           </div>
-          <Button className="bg-emerald-500 hover:bg-emerald-600 text-white">
+          <Button className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold">
             Deploy a Pilot
           </Button>
         </div>
@@ -94,23 +94,23 @@ const CybersecurityPage = () => {
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg md:text-xl text-gray-400 mb-10 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
               Stop letting generic AI hallucinate your technical details. We combine enterprise-speed generation with CISSP-level human verification. The result? Threat reports, white papers, and technical blogs that build authority, not liability.
             </p>
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white gap-2">
+              <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold gap-2">
                 <Shield className="w-5 h-5" />
                 Deploy a Pilot Article
               </Button>
-              <Button size="lg" variant="outline" className="border-gray-600 text-gray-300 hover:bg-white/5 hover:text-white">
+              <Button size="lg" variant="outline" className="border-gray-500 text-white hover:bg-white/10 hover:text-white">
                 View Threat Hunting Samples
               </Button>
             </div>
 
             {/* Trust Signals */}
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-400">
               100% Technical Accuracy Guarantee. No Contracts. NDA Protected.
             </p>
           </div>
@@ -127,7 +127,7 @@ const CybersecurityPage = () => {
               <span className="text-emerald-500">XDR</span>."
             </h2>
             
-            <p className="text-lg text-gray-400 mb-12 text-center max-w-3xl mx-auto">
+            <p className="text-lg text-gray-300 mb-12 text-center max-w-3xl mx-auto">
               Your buyers are CISOs and SecOps directors. They can smell "marketing fluff" from a mile away. When you use raw AI to write your content, you risk three things:
             </p>
 
@@ -137,7 +137,7 @@ const CybersecurityPage = () => {
                   <AlertTriangle className="w-6 h-6 text-red-500" />
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-red-400">The "Hallucination" Breach</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
+                <p className="text-sm text-gray-300 leading-relaxed">
                   Standard LLMs frequently invent CVEs or misinterpret compliance frameworks like DORA or NIS2. One false claim destroys your credibility.
                 </p>
               </div>
@@ -147,7 +147,7 @@ const CybersecurityPage = () => {
                   <Target className="w-6 h-6 text-orange-500" />
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-orange-400">The "Surface Level" Trap</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
+                <p className="text-sm text-gray-300 leading-relaxed">
                   AI explains what ransomware is. It fails to explain how your specific lateral movement protection stops it.
                 </p>
               </div>
@@ -157,7 +157,7 @@ const CybersecurityPage = () => {
                   <AlertTriangle className="w-6 h-6 text-yellow-500" />
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-yellow-400">The "FUD" Fatigue</h3>
-                <p className="text-sm text-gray-400 leading-relaxed">
+                <p className="text-sm text-gray-300 leading-relaxed">
                   Generic tools lean on fear. Your buyers want architecture, not anxiety.
                 </p>
               </div>
@@ -181,7 +181,7 @@ const CybersecurityPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
               Our Protocol: <span className="text-emerald-500">"The Human Firewall"</span>
             </h2>
-            <p className="text-lg text-gray-400">
+            <p className="text-lg text-gray-300">
               We don't just "edit" AI. We sandbox it.
             </p>
           </div>
@@ -190,13 +190,13 @@ const CybersecurityPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {/* Step 1 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold text-black">
                   1
                 </div>
                 <div className="bg-[#0f1520] border border-white/10 rounded-xl p-6 pt-10 h-full">
                   <h3 className="text-lg font-semibold mb-2 text-emerald-400">The Threat Intel</h3>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">Strategy</p>
-                  <p className="text-sm text-gray-400 leading-relaxed">
+                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-4">Strategy</p>
+                  <p className="text-sm text-gray-300 leading-relaxed">
                     We don't guess topics. We analyze the MITRE ATT&CK framework to find the specific TTPs your product solves. We map content to keywords like "Zero Trust Architecture" or "CI/CD Pipeline Security"—not generic terms like "Stay Safe Online."
                   </p>
                 </div>
@@ -204,13 +204,13 @@ const CybersecurityPage = () => {
 
               {/* Step 2 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold text-black">
                   2
                 </div>
                 <div className="bg-[#0f1520] border border-white/10 rounded-xl p-6 pt-10 h-full">
                   <h3 className="text-lg font-semibold mb-2 text-emerald-400">The Core Generation</h3>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">AI</p>
-                  <p className="text-sm text-gray-400 leading-relaxed">
+                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-4">AI</p>
+                  <p className="text-sm text-gray-300 leading-relaxed">
                     We utilize a custom stack (Claude 3.5 Sonnet + Perplexity) to draft the structural skeleton of the article at high speed, ensuring perfect formatting and SEO headers.
                   </p>
                 </div>
@@ -218,13 +218,13 @@ const CybersecurityPage = () => {
 
               {/* Step 3 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold text-black">
                   3
                 </div>
                 <div className="bg-[#0f1520] border border-white/10 rounded-xl p-6 pt-10 h-full">
                   <h3 className="text-lg font-semibold mb-2 text-emerald-400">The Identity Verification</h3>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">Human</p>
-                  <p className="text-sm text-gray-400 leading-relaxed">
+                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-4">Human</p>
+                  <p className="text-sm text-gray-300 leading-relaxed">
                     This is our moat. A human subject-matter expert (typically a former SysAdmin or Tech Writer) manually audits the draft. They verify every API reference, compliance citation (SOC2, HIPAA, GDPR), and technical claim.
                   </p>
                 </div>
@@ -253,8 +253,8 @@ const CybersecurityPage = () => {
                   <useCase.icon className="w-6 h-6 text-emerald-500" />
                 </div>
                 <h3 className="text-lg font-semibold mb-3">{useCase.title}</h3>
-                <p className="text-sm text-gray-400 mb-4">
-                  <span className="text-gray-300 font-medium">Focus:</span> {useCase.focus}
+                <p className="text-sm text-gray-300 mb-4">
+                  <span className="text-white font-medium">Focus:</span> {useCase.focus}
                 </p>
                 <p className="text-sm text-emerald-400">
                   <span className="font-medium">The Angle:</span> {useCase.angle}
@@ -278,23 +278,23 @@ const CybersecurityPage = () => {
             <table className="w-full">
               <thead>
                 <tr className="border-b border-white/10">
-                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-400">Feature</th>
-                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-400">Generalist Agencies</th>
-                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-400">"Raw" ChatGPT/Jasper</th>
+                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-200">Feature</th>
+                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-200">Generalist Agencies</th>
+                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-200">"Raw" ChatGPT/Jasper</th>
                   <th className="text-left py-4 px-4 text-sm font-semibold text-emerald-500">Signal (Us)</th>
                 </tr>
               </thead>
               <tbody>
                 {comparisonData.map((row, index) => (
                   <tr key={index} className="border-b border-white/5">
-                    <td className="py-4 px-4 text-sm font-medium">{row.feature}</td>
-                    <td className="py-4 px-4 text-sm text-gray-500">
+                    <td className="py-4 px-4 text-sm font-medium text-white">{row.feature}</td>
+                    <td className="py-4 px-4 text-sm text-gray-400">
                       <span className="flex items-center gap-2">
                         <X className="w-4 h-4 text-red-500" />
                         {row.generalist}
                       </span>
                     </td>
-                    <td className="py-4 px-4 text-sm text-gray-500">
+                    <td className="py-4 px-4 text-sm text-gray-400">
                       <span className="flex items-center gap-2">
                         <X className="w-4 h-4 text-red-500" />
                         {row.chatgpt}
@@ -321,7 +321,7 @@ const CybersecurityPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Don't Trust. <span className="text-emerald-500">Verify.</span>
             </h2>
-            <p className="text-lg text-gray-400 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-300 mb-8 leading-relaxed">
               We know you are skeptical. You should be. That's why we created a public library of sample work covering Cloud Workload Protection, IAM policies, and SIEM optimization.
             </p>
             <p className="text-gray-300 mb-8">
@@ -362,7 +362,7 @@ const CybersecurityPage = () => {
                   </button>
                   {openFaq === index && (
                     <div className="px-6 pb-6">
-                      <p className="text-gray-400 leading-relaxed">{faq.answer}</p>
+                      <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
                     </div>
                   )}
                 </div>
@@ -379,10 +379,10 @@ const CybersecurityPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
               Secure Your Content Pipeline Today.
             </h2>
-            <p className="text-lg text-gray-400 mb-10">
+            <p className="text-lg text-gray-300 mb-10">
               High-volume, technically accurate content is the only way to win organic search in cybersecurity. Start your pilot for just $250.
             </p>
-            <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white gap-2">
+            <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold gap-2">
               <Shield className="w-5 h-5" />
               Start Pilot Project
             </Button>
@@ -398,7 +398,7 @@ const CybersecurityPage = () => {
               <Shield className="w-5 h-5 text-emerald-500" />
               <span className="font-bold">Signal</span>
             </Link>
-            <p className="text-sm text-gray-500">
+            <p className="text-sm text-gray-400">
               © {new Date().getFullYear()} Signal. Verified B2B Content.
             </p>
           </div>
