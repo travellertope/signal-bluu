@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-16 hero-grid">
+    <section className="relative min-h-screen flex items-center justify-center pt-24 pb-16 hero-grid">
       {/* Gradient overlay for depth */}
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background pointer-events-none" />
       

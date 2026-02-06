@@ -1,25 +1,30 @@
 import { Shield, Landmark, Truck, Stethoscope } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const industries = [
   {
     icon: Shield,
     title: "Cybersecurity",
     description: "Zero-Trust, SOC2, and Threat Hunting. We verify every CVE reference.",
+    href: "/cybersecurity",
   },
   {
     icon: Landmark,
     title: "FinTech & Payments",
     description: "Embedded Finance, DeFi, and ISO 20022. No financial advice errors.",
+    href: "/fintech",
   },
   {
     icon: Truck,
     title: "Supply Chain",
     description: "Drayage, Scope 3, and 4PL. We understand the jargon.",
+    href: "/supply-chain",
   },
   {
     icon: Stethoscope,
     title: "HealthTech",
     description: "EHR interoperability and patient data. HIPAA-compliant workflows.",
+    href: "/healthtech",
   },
 ];
 
@@ -38,9 +43,10 @@ const IndustrySelector = () => {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
           {industries.map((industry, index) => (
-            <div
+            <Link
               key={index}
-              className="group bg-card rounded-xl p-6 border border-border card-glow cursor-pointer"
+              to={industry.href}
+              className="group bg-card rounded-xl p-6 border border-border card-glow cursor-pointer block"
             >
               <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center mb-5 group-hover:bg-accent/20 transition-colors">
                 <industry.icon className="w-6 h-6 text-accent" />
@@ -51,7 +57,7 @@ const IndustrySelector = () => {
               <p className="text-sm text-muted-foreground leading-relaxed">
                 {industry.description}
               </p>
-            </div>
+            </Link>
           ))}
         </div>
       </div>
