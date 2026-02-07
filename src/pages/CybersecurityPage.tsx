@@ -50,67 +50,60 @@ const CybersecurityPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-[#0B1120] text-white">
+    <div className="min-h-screen bg-white text-gray-900">
       {/* Navbar */}
-      <nav className="fixed top-0 left-0 right-0 z-50 bg-[#0B1120]/95 backdrop-blur-sm border-b border-white/10">
+      <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <Shield className="w-6 h-6 text-emerald-500" />
-            <span className="text-xl font-bold">Signal</span>
+            <Shield className="w-6 h-6 text-emerald-600" />
+            <span className="text-xl font-bold text-gray-900">Signal</span>
           </Link>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#pain" className="text-sm text-gray-300 hover:text-white transition-colors">The Problem</a>
-            <a href="#protocol" className="text-sm text-gray-300 hover:text-white transition-colors">Our Protocol</a>
-            <a href="#capabilities" className="text-sm text-gray-300 hover:text-white transition-colors">Capabilities</a>
-            <a href="#faq" className="text-sm text-gray-300 hover:text-white transition-colors">FAQ</a>
+            <a href="#pain" className="text-sm text-gray-600 hover:text-emerald-600 transition-colors">The Problem</a>
+            <a href="#protocol" className="text-sm text-gray-600 hover:text-emerald-600 transition-colors">Our Protocol</a>
+            <a href="#capabilities" className="text-sm text-gray-600 hover:text-emerald-600 transition-colors">Capabilities</a>
+            <a href="#faq" className="text-sm text-gray-600 hover:text-emerald-600 transition-colors">FAQ</a>
           </div>
-          <Button className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold">
+          <Button className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold">
             Deploy a Pilot
           </Button>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 overflow-hidden">
-        {/* Background effects */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-emerald-900/20 via-transparent to-transparent" />
-        <div className="absolute inset-0" style={{
-          backgroundImage: `radial-gradient(circle at 1px 1px, rgba(16, 185, 129, 0.1) 1px, transparent 0)`,
-          backgroundSize: '40px 40px'
-        }} />
-        
+      <section className="relative pt-32 pb-24 overflow-hidden bg-gradient-to-br from-white via-emerald-50/30 to-white">
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 mb-8">
-              <Lock className="w-4 h-4 text-emerald-500" />
-              <span className="text-sm text-emerald-400">Cybersecurity Content Specialists</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 mb-8">
+              <Lock className="w-4 h-4 text-emerald-600" />
+              <span className="text-sm font-medium text-emerald-700">Cybersecurity Content Specialists</span>
             </div>
 
             {/* Headline */}
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gray-900">
               Zero-Trust Content Marketing for{" "}
-              <span className="text-emerald-500">Cybersecurity Leaders.</span>
+              <span className="text-emerald-600">Cybersecurity Leaders.</span>
             </h1>
 
             {/* Subheadline */}
-            <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-3xl mx-auto leading-relaxed">
               Stop letting generic AI hallucinate your technical details. We combine enterprise-speed generation with CISSP-level human verification. The result? Threat reports, white papers, and technical blogs that build authority, not liability.
             </p>
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold gap-2">
+              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold gap-2">
                 <Shield className="w-5 h-5" />
                 Deploy a Pilot Article
               </Button>
-              <Button size="lg" variant="outline" className="border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 hover:text-emerald-300">
+              <Button size="lg" variant="outline" className="border-emerald-300 text-emerald-700 hover:bg-emerald-50 hover:text-emerald-800 font-semibold">
                 View Threat Hunting Samples
               </Button>
             </div>
 
             {/* Trust Signals */}
-            <p className="text-sm text-gray-400">
+            <p className="text-sm text-gray-500">
               100% Technical Accuracy Guarantee. No Contracts. NDA Protected.
             </p>
           </div>
@@ -118,56 +111,56 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Pain Section */}
-      <section id="pain" className="py-24 bg-[#080d16]">
+      <section id="pain" className="py-24 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-white">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-gray-900">
               "ChatGPT Doesn't Know the Difference Between{" "}
               <span className="text-red-500">EDR</span> and{" "}
-              <span className="text-emerald-500">XDR</span>."
+              <span className="text-emerald-600">XDR</span>."
             </h2>
             
-            <p className="text-lg text-gray-300 mb-12 text-center max-w-3xl mx-auto">
+            <p className="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
               Your buyers are CISOs and SecOps directors. They can smell "marketing fluff" from a mile away. When you use raw AI to write your content, you risk three things:
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-[#0f1520] border border-red-500/20 rounded-xl p-6">
-                <div className="w-12 h-12 rounded-lg bg-red-500/10 flex items-center justify-center mb-4">
+              <div className="bg-white border border-red-200 rounded-xl p-6 shadow-sm">
+                <div className="w-12 h-12 rounded-lg bg-red-100 flex items-center justify-center mb-4">
                   <AlertTriangle className="w-6 h-6 text-red-500" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-red-400">The "Hallucination" Breach</h3>
-                <p className="text-sm text-gray-300 leading-relaxed">
+                <h3 className="text-lg font-semibold mb-3 text-red-600">The "Hallucination" Breach</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
                   Standard LLMs frequently invent CVEs or misinterpret compliance frameworks like DORA or NIS2. One false claim destroys your credibility.
                 </p>
               </div>
 
-              <div className="bg-[#0f1520] border border-orange-500/20 rounded-xl p-6">
-                <div className="w-12 h-12 rounded-lg bg-orange-500/10 flex items-center justify-center mb-4">
+              <div className="bg-white border border-orange-200 rounded-xl p-6 shadow-sm">
+                <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center mb-4">
                   <Target className="w-6 h-6 text-orange-500" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-orange-400">The "Surface Level" Trap</h3>
-                <p className="text-sm text-gray-300 leading-relaxed">
+                <h3 className="text-lg font-semibold mb-3 text-orange-600">The "Surface Level" Trap</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
                   AI explains what ransomware is. It fails to explain how your specific lateral movement protection stops it.
                 </p>
               </div>
 
-              <div className="bg-[#0f1520] border border-yellow-500/20 rounded-xl p-6">
-                <div className="w-12 h-12 rounded-lg bg-yellow-500/10 flex items-center justify-center mb-4">
-                  <AlertTriangle className="w-6 h-6 text-yellow-500" />
+              <div className="bg-white border border-yellow-300 rounded-xl p-6 shadow-sm">
+                <div className="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center mb-4">
+                  <AlertTriangle className="w-6 h-6 text-yellow-600" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-yellow-400">The "FUD" Fatigue</h3>
-                <p className="text-sm text-gray-300 leading-relaxed">
+                <h3 className="text-lg font-semibold mb-3 text-yellow-700">The "FUD" Fatigue</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
                   Generic tools lean on fear. Your buyers want architecture, not anxiety.
                 </p>
               </div>
             </div>
 
-            <div className="text-center bg-gradient-to-r from-emerald-500/10 via-emerald-500/5 to-emerald-500/10 border border-emerald-500/20 rounded-xl p-8">
-              <p className="text-xl text-gray-300">
-                <span className="text-white font-semibold">The Reality:</span>{" "}
+            <div className="text-center bg-gradient-to-r from-emerald-50 via-emerald-100/50 to-emerald-50 border border-emerald-200 rounded-xl p-8">
+              <p className="text-xl text-gray-700">
+                <span className="text-gray-900 font-semibold">The Reality:</span>{" "}
                 You don't need a copywriter. You need a{" "}
-                <span className="text-emerald-500 font-semibold">technical translator</span>.
+                <span className="text-emerald-600 font-semibold">technical translator</span>.
               </p>
             </div>
           </div>
@@ -175,13 +168,13 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Protocol Section */}
-      <section id="protocol" className="py-24">
+      <section id="protocol" className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
-              Our Protocol: <span className="text-emerald-500">"The Human Firewall"</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
+              Our Protocol: <span className="text-emerald-600">"The Human Firewall"</span>
             </h2>
-            <p className="text-lg text-gray-300">
+            <p className="text-lg text-gray-600">
               We don't just "edit" AI. We sandbox it.
             </p>
           </div>
@@ -190,13 +183,13 @@ const CybersecurityPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {/* Step 1 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold text-black">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white">
                   1
                 </div>
-                <div className="bg-[#0f1520] border border-white/10 rounded-xl p-6 pt-10 h-full">
-                  <h3 className="text-lg font-semibold mb-2 text-emerald-400">The Threat Intel</h3>
-                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-4">Strategy</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
+                <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 pt-10 h-full">
+                  <h3 className="text-lg font-semibold mb-2 text-emerald-700">The Threat Intel</h3>
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">Strategy</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">
                     We don't guess topics. We analyze the MITRE ATT&CK framework to find the specific TTPs your product solves. We map content to keywords like "Zero Trust Architecture" or "CI/CD Pipeline Security"—not generic terms like "Stay Safe Online."
                   </p>
                 </div>
@@ -204,13 +197,13 @@ const CybersecurityPage = () => {
 
               {/* Step 2 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold text-black">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white">
                   2
                 </div>
-                <div className="bg-[#0f1520] border border-white/10 rounded-xl p-6 pt-10 h-full">
-                  <h3 className="text-lg font-semibold mb-2 text-emerald-400">The Core Generation</h3>
-                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-4">AI</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
+                <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 pt-10 h-full">
+                  <h3 className="text-lg font-semibold mb-2 text-emerald-700">The Core Generation</h3>
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">AI</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">
                     We utilize a custom stack (Claude 3.5 Sonnet + Perplexity) to draft the structural skeleton of the article at high speed, ensuring perfect formatting and SEO headers.
                   </p>
                 </div>
@@ -218,13 +211,13 @@ const CybersecurityPage = () => {
 
               {/* Step 3 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-500 flex items-center justify-center text-xl font-bold text-black">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white">
                   3
                 </div>
-                <div className="bg-[#0f1520] border border-white/10 rounded-xl p-6 pt-10 h-full">
-                  <h3 className="text-lg font-semibold mb-2 text-emerald-400">The Identity Verification</h3>
-                  <p className="text-xs text-gray-400 uppercase tracking-wide mb-4">Human</p>
-                  <p className="text-sm text-gray-300 leading-relaxed">
+                <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 pt-10 h-full">
+                  <h3 className="text-lg font-semibold mb-2 text-emerald-700">The Identity Verification</h3>
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">Human</p>
+                  <p className="text-sm text-gray-600 leading-relaxed">
                     This is our moat. A human subject-matter expert (typically a former SysAdmin or Tech Writer) manually audits the draft. They verify every API reference, compliance citation (SOC2, HIPAA, GDPR), and technical claim.
                   </p>
                 </div>
@@ -235,10 +228,10 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Capabilities Section */}
-      <section id="capabilities" className="py-24 bg-[#080d16]">
+      <section id="capabilities" className="py-24 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
               Capabilities & Coverage
             </h2>
           </div>
@@ -247,16 +240,16 @@ const CybersecurityPage = () => {
             {useCases.map((useCase, index) => (
               <div
                 key={index}
-                className="bg-[#0f1520] border border-white/10 rounded-xl p-6 hover:border-emerald-500/30 transition-colors"
+                className="bg-white border border-gray-200 rounded-xl p-6 hover:border-emerald-300 hover:shadow-lg transition-all"
               >
-                <div className="w-12 h-12 rounded-lg bg-emerald-500/10 flex items-center justify-center mb-5">
-                  <useCase.icon className="w-6 h-6 text-emerald-500" />
+                <div className="w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center mb-5">
+                  <useCase.icon className="w-6 h-6 text-emerald-600" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3">{useCase.title}</h3>
-                <p className="text-sm text-gray-300 mb-4">
-                  <span className="text-white font-medium">Focus:</span> {useCase.focus}
+                <h3 className="text-lg font-semibold mb-3 text-gray-900">{useCase.title}</h3>
+                <p className="text-sm text-gray-600 mb-4">
+                  <span className="text-gray-900 font-medium">Focus:</span> {useCase.focus}
                 </p>
-                <p className="text-sm text-emerald-400">
+                <p className="text-sm text-emerald-600">
                   <span className="font-medium">The Angle:</span> {useCase.angle}
                 </p>
               </div>
@@ -266,43 +259,43 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Comparison Section */}
-      <section className="py-24">
+      <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
               Why MSSPs & SaaS Vendors Choose Us
             </h2>
           </div>
 
           <div className="max-w-4xl mx-auto overflow-x-auto">
-            <table className="w-full">
+            <table className="w-full border-collapse">
               <thead>
-                <tr className="border-b border-white/10">
-                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-200">Feature</th>
-                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-200">Generalist Agencies</th>
-                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-200">"Raw" ChatGPT/Jasper</th>
-                  <th className="text-left py-4 px-4 text-sm font-semibold text-emerald-500">Signal (Us)</th>
+                <tr className="border-b-2 border-emerald-200">
+                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-900">Feature</th>
+                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-500">Generalist Agencies</th>
+                  <th className="text-left py-4 px-4 text-sm font-semibold text-gray-500">"Raw" ChatGPT/Jasper</th>
+                  <th className="text-left py-4 px-4 text-sm font-semibold text-emerald-600">Signal (Us)</th>
                 </tr>
               </thead>
               <tbody>
                 {comparisonData.map((row, index) => (
-                  <tr key={index} className="border-b border-white/5">
-                    <td className="py-4 px-4 text-sm font-medium text-white">{row.feature}</td>
-                    <td className="py-4 px-4 text-sm text-gray-400">
+                  <tr key={index} className="border-b border-gray-100 hover:bg-emerald-50/30 transition-colors">
+                    <td className="py-4 px-4 text-sm font-medium text-gray-900">{row.feature}</td>
+                    <td className="py-4 px-4 text-sm text-gray-500">
                       <span className="flex items-center gap-2">
                         <X className="w-4 h-4 text-red-500" />
                         {row.generalist}
                       </span>
                     </td>
-                    <td className="py-4 px-4 text-sm text-gray-400">
+                    <td className="py-4 px-4 text-sm text-gray-500">
                       <span className="flex items-center gap-2">
                         <X className="w-4 h-4 text-red-500" />
                         {row.chatgpt}
                       </span>
                     </td>
-                    <td className="py-4 px-4 text-sm text-emerald-400">
+                    <td className="py-4 px-4 text-sm text-emerald-600">
                       <span className="flex items-center gap-2">
-                        <Check className="w-4 h-4 text-emerald-500" />
+                        <Check className="w-4 h-4 text-emerald-600" />
                         {row.us}
                       </span>
                     </td>
@@ -315,20 +308,20 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Sample Teaser Section */}
-      <section className="py-24 bg-[#080d16]">
+      <section className="py-24 bg-gradient-to-br from-emerald-600 to-emerald-800">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-              Don't Trust. <span className="text-emerald-500">Verify.</span>
+              Don't Trust. <span className="text-emerald-200">Verify.</span>
             </h2>
-            <p className="text-lg text-gray-300 mb-8 leading-relaxed">
+            <p className="text-lg text-emerald-100 mb-8 leading-relaxed">
               We know you are skeptical. You should be. That's why we created a public library of sample work covering Cloud Workload Protection, IAM policies, and SIEM optimization.
             </p>
-            <p className="text-gray-300 mb-8">
+            <p className="text-emerald-200 mb-8">
               Read a sample. Look for the jargon. Try to find a mistake.
             </p>
-            <Button size="lg" variant="outline" className="border-emerald-500 text-emerald-500 hover:bg-emerald-500/10 gap-2">
-              Browse the Sample Library
+            <Button size="lg" className="bg-white text-emerald-700 hover:bg-emerald-50 font-semibold gap-2">
+              Browse Samples
               <ArrowRight className="w-4 h-4" />
             </Button>
           </div>
@@ -336,10 +329,10 @@ const CybersecurityPage = () => {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-24">
+      <section id="faq" className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               Frequently Asked Questions
             </h2>
             
@@ -347,22 +340,22 @@ const CybersecurityPage = () => {
               {faqs.map((faq, index) => (
                 <div
                   key={index}
-                  className="border border-white/10 rounded-xl overflow-hidden"
+                  className="border border-gray-200 rounded-xl overflow-hidden bg-gray-50"
                 >
                   <button
                     onClick={() => setOpenFaq(openFaq === index ? null : index)}
-                    className="w-full flex items-center justify-between p-6 text-left hover:bg-white/5 transition-colors"
+                    className="w-full flex items-center justify-between p-6 text-left hover:bg-gray-100 transition-colors"
                   >
-                    <span className="font-semibold">{faq.question}</span>
+                    <span className="font-semibold text-gray-900">{faq.question}</span>
                     {openFaq === index ? (
-                      <ChevronUp className="w-5 h-5 text-gray-400" />
+                      <ChevronUp className="w-5 h-5 text-emerald-600" />
                     ) : (
                       <ChevronDown className="w-5 h-5 text-gray-400" />
                     )}
                   </button>
                   {openFaq === index && (
                     <div className="px-6 pb-6">
-                      <p className="text-gray-300 leading-relaxed">{faq.answer}</p>
+                      <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
                     </div>
                   )}
                 </div>
@@ -372,34 +365,33 @@ const CybersecurityPage = () => {
         </div>
       </section>
 
-      {/* Final CTA Section */}
-      <section className="py-24 bg-gradient-to-t from-emerald-900/20 to-transparent">
+      {/* Footer CTA */}
+      <section className="py-24 bg-gray-900">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
               Secure Your Content Pipeline Today.
             </h2>
-            <p className="text-lg text-gray-300 mb-10">
-              High-volume, technically accurate content is the only way to win organic search in cybersecurity. Start your pilot for just $250.
+            <p className="text-lg text-gray-300 mb-10 leading-relaxed">
+              Inaccurate technical content isn't just embarrassing—it's a trust breach. Stop guessing and start publishing with confidence.
             </p>
-            <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-black font-semibold gap-2">
-              <Shield className="w-5 h-5" />
-              Start Pilot Project
+            <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold px-10 py-6 text-lg">
+              Start Your Pilot Project
             </Button>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="py-12 border-t border-white/10">
+      <footer className="py-12 border-t border-gray-200 bg-white">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <Link to="/" className="flex items-center gap-2">
-              <Shield className="w-5 h-5 text-emerald-500" />
-              <span className="font-bold">Signal</span>
+              <Shield className="w-5 h-5 text-emerald-600" />
+              <span className="text-lg font-bold text-gray-900">Signal</span>
             </Link>
-            <p className="text-sm text-gray-400">
-              © {new Date().getFullYear()} Signal. Verified B2B Content.
+            <p className="text-sm text-gray-500">
+              © {new Date().getFullYear()} Signal. All rights reserved.
             </p>
           </div>
         </div>
