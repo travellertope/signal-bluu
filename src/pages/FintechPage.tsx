@@ -291,7 +291,7 @@ const FintechPage = () => {
               Read a sample. Look for the jargon. Try to find a mistake.
             </p>
             <Button size="lg" className="bg-white text-violet-700 hover:bg-violet-50 font-semibold">
-              Browse the FinTech Sample Library
+              Browse Samples
               <ArrowRight className="w-5 h-5 ml-2" />
             </Button>
           </div>
