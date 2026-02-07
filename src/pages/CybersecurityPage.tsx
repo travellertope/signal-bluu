@@ -104,7 +104,7 @@ const CybersecurityPage = () => {
                 <Shield className="w-5 h-5" />
                 Deploy a Pilot Article
               </Button>
-              <Button size="lg" variant="outline" className="border-gray-500 text-white hover:bg-white/10 hover:text-white">
+              <Button size="lg" variant="outline" className="border-emerald-500 text-emerald-400 hover:bg-emerald-500/10 hover:text-emerald-300">
                 View Threat Hunting Samples
               </Button>
             </div>
@@ -121,7 +121,7 @@ const CybersecurityPage = () => {
       <section id="pain" className="py-24 bg-[#080d16]">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-white">
               "ChatGPT Doesn't Know the Difference Between{" "}
               <span className="text-red-500">EDR</span> and{" "}
               <span className="text-emerald-500">XDR</span>."
@@ -178,7 +178,7 @@ const CybersecurityPage = () => {
       <section id="protocol" className="py-24">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
               Our Protocol: <span className="text-emerald-500">"The Human Firewall"</span>
             </h2>
             <p className="text-lg text-gray-300">
@@ -238,7 +238,7 @@ const CybersecurityPage = () => {
       <section id="capabilities" className="py-24 bg-[#080d16]">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
               Capabilities & Coverage
             </h2>
           </div>
@@ -269,7 +269,7 @@ const CybersecurityPage = () => {
       <section className="py-24">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">
               Why MSSPs & SaaS Vendors Choose Us
             </h2>
           </div>
@@ -318,7 +318,7 @@ const CybersecurityPage = () => {
       <section className="py-24 bg-[#080d16]">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
               Don't Trust. <span className="text-emerald-500">Verify.</span>
             </h2>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
@@ -339,7 +339,7 @@ const CybersecurityPage = () => {
       <section id="faq" className="py-24">
         <div className="container mx-auto px-6">
           <div className="max-w-2xl mx-auto">
-            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-white">
               Frequently Asked Questions
             </h2>
             
