@@ -2,6 +2,7 @@ import { ShieldCheck, Truck, AlertTriangle, Target, Package, Ship, Leaf, Check, 
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import SEO from "@/components/SEO";
 
 const SupplyChainPage = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -51,6 +52,11 @@ const SupplyChainPage = () => {
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
+      <SEO
+        title="Signal | Supply Chain Content Marketing"
+        description="Supply Chain Content Specialists. Stop Publishing 'Fluff' About Supply Chain Resilience."
+        canonical="/supply-chain"
+      />
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
@@ -119,7 +125,7 @@ const SupplyChainPage = () => {
               <span className="text-orange-600">'Bill of Lading'</span> is Just a{" "}
               <span className="text-slate-500">Receipt</span>."
             </h2>
-            
+
             <p className="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
               In Logistics, credibility is built on detail. One misused term exposes you as an outsider. When you use raw AI to write your content, you face three critical risks:
             </p>
@@ -335,7 +341,7 @@ const SupplyChainPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               Frequently Asked Questions
             </h2>
-            
+
             <div className="space-y-4">
               {faqs.map((faq, index) => (
                 <div

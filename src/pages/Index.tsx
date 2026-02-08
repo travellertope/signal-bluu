@@ -6,9 +6,16 @@ import ProcessSection from "@/components/ProcessSection";
 import PricingSection from "@/components/PricingSection";
 import Footer from "@/components/Footer";
 
+import SEO from "@/components/SEO";
+
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <SEO
+        title="Signal | Enterprise Technical Content Marketing"
+        description="We combine enterprise AI speed with human expert verification to write technical content that builds authority, not liability."
+        canonical="/"
+      />
       <Navbar />
       <Hero />
       <RiskSection />

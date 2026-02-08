@@ -2,6 +2,7 @@ import { ShieldCheck, Lock, AlertTriangle, Target, FileText, BookOpen, Users, Ch
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import SEO from "@/components/SEO";
 
 const CybersecurityPage = () => {
   const [openFaq, setOpenFaq] = useState<number | null>(null);
@@ -51,6 +52,11 @@ const CybersecurityPage = () => {
 
   return (
     <div className="min-h-screen bg-white text-gray-900">
+      <SEO
+        title="Signal | Cybersecurity Content Marketing"
+        description="Zero-Trust Content Marketing for Cybersecurity Leaders. Enterprise-speed generation with CISSP-level human verification."
+        canonical="/cybersecurity"
+      />
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
@@ -119,7 +125,7 @@ const CybersecurityPage = () => {
               <span className="text-red-500">EDR</span> and{" "}
               <span className="text-emerald-600">XDR</span>."
             </h2>
-            
+
             <p className="text-lg text-gray-600 mb-12 text-center max-w-3xl mx-auto">
               Your buyers are CISOs and SecOps directors. They can smell "marketing fluff" from a mile away. When you use raw AI to write your content, you risk three things:
             </p>
@@ -335,7 +341,7 @@ const CybersecurityPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center text-gray-900">
               Frequently Asked Questions
             </h2>
-            
+
             <div className="space-y-4">
               {faqs.map((faq, index) => (
                 <div

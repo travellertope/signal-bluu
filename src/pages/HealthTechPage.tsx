@@ -4,10 +4,16 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Link } from "react-router-dom";
+import SEO from "@/components/SEO";
 
 export default function HealthTechPage() {
   return (
     <div className="min-h-screen bg-white">
+      <SEO
+        title="Signal | HealthTech Content Marketing"
+        description="First, Do No Harm (To Your Brand Authority). HIPAA-Compliant Workflows. Verified by Healthcare Pros."
+        canonical="/healthtech"
+      />
       <Navbar />
 
       {/* HERO SECTION */}
