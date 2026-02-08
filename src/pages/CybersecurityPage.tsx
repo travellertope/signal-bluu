@@ -77,13 +77,13 @@ const CybersecurityPage = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative pt-32 pb-24 overflow-hidden bg-gradient-to-br from-white via-emerald-50/30 to-white">
+      <section className="relative pt-32 pb-24 overflow-hidden bg-white">
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 mb-8">
-              <Lock className="w-4 h-4 text-emerald-600" />
-              <span className="text-sm font-medium text-emerald-700">Cybersecurity Content Specialists</span>
+              <Lock className="w-4 h-4 text-emerald-700" />
+              <span className="text-sm font-medium text-emerald-800">Cybersecurity Content Specialists</span>
             </div>
 
             {/* Headline */}
@@ -103,7 +103,7 @@ const CybersecurityPage = () => {
                 <ShieldCheck className="w-5 h-5" />
                 Deploy a Pilot Article
               </Button>
-              <Button size="lg" variant="outline" className="border-emerald-300 text-emerald-700 hover:bg-emerald-50 hover:text-emerald-800 font-semibold">
+              <Button size="lg" variant="outline" className="border-emerald-600 text-emerald-700 hover:bg-emerald-50 hover:text-emerald-800 font-semibold">
                 View Threat Hunting Samples
               </Button>
             </div>
@@ -131,8 +131,8 @@ const CybersecurityPage = () => {
             </p>
 
             <div className="grid md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-white border border-red-200 rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 rounded-lg bg-red-100 flex items-center justify-center mb-4">
+              <div className="bg-white border border-red-100 rounded-xl p-6 shadow-sm">
+                <div className="w-12 h-12 rounded-lg bg-red-50 flex items-center justify-center mb-4">
                   <AlertTriangle className="w-6 h-6 text-red-500" />
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-red-600">The "Hallucination" Breach</h3>
@@ -141,8 +141,8 @@ const CybersecurityPage = () => {
                 </p>
               </div>
 
-              <div className="bg-white border border-orange-200 rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center mb-4">
+              <div className="bg-white border border-orange-100 rounded-xl p-6 shadow-sm">
+                <div className="w-12 h-12 rounded-lg bg-orange-50 flex items-center justify-center mb-4">
                   <Target className="w-6 h-6 text-orange-500" />
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-orange-600">The "Surface Level" Trap</h3>
@@ -151,18 +151,18 @@ const CybersecurityPage = () => {
                 </p>
               </div>
 
-              <div className="bg-white border border-yellow-300 rounded-xl p-6 shadow-sm">
-                <div className="w-12 h-12 rounded-lg bg-yellow-100 flex items-center justify-center mb-4">
-                  <AlertTriangle className="w-6 h-6 text-yellow-600" />
+              <div className="bg-white border border-amber-100 rounded-xl p-6 shadow-sm">
+                <div className="w-12 h-12 rounded-lg bg-amber-50 flex items-center justify-center mb-4">
+                  <AlertTriangle className="w-6 h-6 text-amber-500" />
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-yellow-700">The "FUD" Fatigue</h3>
+                <h3 className="text-lg font-semibold mb-3 text-amber-600">The "FUD" Fatigue</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
                   Generic tools lean on fear. Your buyers want architecture, not anxiety.
                 </p>
               </div>
             </div>
 
-            <div className="text-center bg-gradient-to-r from-emerald-50 via-emerald-100/50 to-emerald-50 border border-emerald-200 rounded-xl p-8">
+            <div className="text-center bg-emerald-50 border border-emerald-100 rounded-xl p-8">
               <p className="text-xl text-gray-700">
                 <span className="text-gray-900 font-semibold">The Reality:</span>{" "}
                 You don't need a copywriter. You need a{" "}
@@ -189,10 +189,10 @@ const CybersecurityPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {/* Step 1 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white shadow-sm ring-4 ring-white">
                   1
                 </div>
-                <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 pt-10 h-full">
+                <div className="bg-white border border-emerald-100 rounded-xl p-6 pt-10 h-full shadow-sm">
                   <h3 className="text-lg font-semibold mb-2 text-emerald-700">The Threat Intel</h3>
                   <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">Strategy</p>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -203,10 +203,10 @@ const CybersecurityPage = () => {
 
               {/* Step 2 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white shadow-sm ring-4 ring-white">
                   2
                 </div>
-                <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 pt-10 h-full">
+                <div className="bg-white border border-emerald-100 rounded-xl p-6 pt-10 h-full shadow-sm">
                   <h3 className="text-lg font-semibold mb-2 text-emerald-700">The Core Generation</h3>
                   <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">AI</p>
                   <p className="text-sm text-gray-600 leading-relaxed">
@@ -217,10 +217,10 @@ const CybersecurityPage = () => {
 
               {/* Step 3 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white">
+                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-emerald-600 flex items-center justify-center text-xl font-bold text-white shadow-sm ring-4 ring-white">
                   3
                 </div>
-                <div className="bg-gradient-to-br from-emerald-50 to-white border border-emerald-100 rounded-xl p-6 pt-10 h-full">
+                <div className="bg-white border border-emerald-100 rounded-xl p-6 pt-10 h-full shadow-sm">
                   <h3 className="text-lg font-semibold mb-2 text-emerald-700">The Identity Verification</h3>
                   <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">Human</p>
                   <p className="text-sm text-gray-600 leading-relaxed">
