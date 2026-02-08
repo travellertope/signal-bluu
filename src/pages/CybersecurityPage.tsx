@@ -61,16 +61,16 @@ const CybersecurityPage = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <ShieldCheck className="w-6 h-6 text-emerald-600" />
+            <ShieldCheck className="w-6 h-6 text-emerald-500" />
             <span className="text-xl font-bold text-gray-900">Signal</span>
           </Link>
           <div className="hidden md:flex items-center gap-8">
-            <a href="#pain" className="text-sm text-gray-600 hover:text-emerald-600 transition-colors">The Problem</a>
-            <a href="#protocol" className="text-sm text-gray-600 hover:text-emerald-600 transition-colors">Our Protocol</a>
-            <a href="#capabilities" className="text-sm text-gray-600 hover:text-emerald-600 transition-colors">Capabilities</a>
-            <a href="#faq" className="text-sm text-gray-600 hover:text-emerald-600 transition-colors">FAQ</a>
+            <a href="#pain" className="text-sm text-gray-600 hover:text-emerald-500 transition-colors">The Problem</a>
+            <a href="#protocol" className="text-sm text-gray-600 hover:text-emerald-500 transition-colors">Our Protocol</a>
+            <a href="#capabilities" className="text-sm text-gray-600 hover:text-emerald-500 transition-colors">Capabilities</a>
+            <a href="#faq" className="text-sm text-gray-600 hover:text-emerald-500 transition-colors">FAQ</a>
           </div>
-          <Button className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold">
+          <Button className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold">
             Deploy a Pilot
           </Button>
         </div>
@@ -82,14 +82,14 @@ const CybersecurityPage = () => {
           <div className="max-w-4xl mx-auto text-center">
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-100 mb-8">
-              <Lock className="w-4 h-4 text-emerald-700" />
+              <Lock className="w-4 h-4 text-emerald-600" />
               <span className="text-sm font-medium text-emerald-800">Cybersecurity Content Specialists</span>
             </div>
 
             {/* Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-gray-900">
               Zero-Trust Content Marketing for{" "}
-              <span className="text-emerald-600">Cybersecurity Leaders.</span>
+              <span className="text-emerald-500">Cybersecurity Leaders.</span>
             </h1>
 
             {/* Subheadline */}
@@ -99,11 +99,11 @@ const CybersecurityPage = () => {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
-              <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold gap-2">
+              <Button size="lg" className="bg-emerald-500 hover:bg-emerald-600 text-white font-semibold gap-2">
                 <ShieldCheck className="w-5 h-5" />
                 Deploy a Pilot Article
               </Button>
-              <Button size="lg" variant="outline" className="border-emerald-600 text-emerald-700 hover:bg-emerald-50 hover:text-emerald-800 font-semibold">
+              <Button size="lg" variant="outline" className="border-emerald-200 text-emerald-600 hover:bg-emerald-50 hover:text-emerald-700 font-semibold">
                 View Threat Hunting Samples
               </Button>
             </div>
