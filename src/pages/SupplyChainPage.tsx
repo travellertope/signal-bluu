@@ -81,9 +81,9 @@ const SupplyChainPage = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-orange-100 mb-8">
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-orange-50 border border-orange-600 rounded-full mb-8">
               <Truck className="w-4 h-4 text-orange-600" />
-              <span className="text-sm font-medium text-orange-700">Supply Chain Content Specialists</span>
+              <span className="text-sm font-medium text-orange-800">Supply Chain Content Specialists</span>
             </div>
 
             {/* Headline */}
@@ -117,7 +117,7 @@ const SupplyChainPage = () => {
       </section>
 
       {/* Pain Section */}
-      <section id="pain" className="py-24 bg-slate-50">
+      <section id="pain" className="py-24 bg-orange-50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-gray-900">
@@ -189,12 +189,12 @@ const SupplyChainPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {/* Step 1 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-orange-600 flex items-center justify-center text-xl font-bold text-white">
+                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-orange-600 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
                   1
                 </div>
-                <div className="bg-gradient-to-br from-slate-50 to-white border border-slate-200 rounded-xl p-6 pt-10 h-full">
-                  <h3 className="text-lg font-semibold mb-2 text-orange-700">The Operational Strategy</h3>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">Strategy</p>
+                <div className="bg-orange-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-orange-200 transition-colors">
+                  <h3 className="text-lg font-bold mb-2 text-gray-900">The Operational Strategy</h3>
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4 font-semibold">Strategy</p>
                   <p className="text-sm text-gray-600 leading-relaxed">
                     We analyze your specific value wedge. Are you solving Reverse Logistics returns? Cold Chain spoilage? Last-Mile density? We map content to expensive problems, not high-volume keywords.
                   </p>
@@ -203,12 +203,12 @@ const SupplyChainPage = () => {
 
               {/* Step 2 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-orange-600 flex items-center justify-center text-xl font-bold text-white">
+                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-orange-600 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
                   2
                 </div>
-                <div className="bg-gradient-to-br from-slate-50 to-white border border-slate-200 rounded-xl p-6 pt-10 h-full">
-                  <h3 className="text-lg font-semibold mb-2 text-orange-700">The Core Generation</h3>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">AI</p>
+                <div className="bg-orange-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-orange-200 transition-colors">
+                  <h3 className="text-lg font-bold mb-2 text-gray-900">The Core Generation</h3>
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4 font-semibold">AI</p>
                   <p className="text-sm text-gray-600 leading-relaxed">
                     We utilize a custom stack (Claude 3.5 Sonnet + Industry Data Feeds) to build the structural draft, ensuring we hit the right semantic entities (e.g., Incoterms, EDI 214, Proof of Delivery).
                   </p>
@@ -217,12 +217,12 @@ const SupplyChainPage = () => {
 
               {/* Step 3 */}
               <div className="relative">
-                <div className="absolute -top-4 -left-4 w-12 h-12 rounded-full bg-orange-600 flex items-center justify-center text-xl font-bold text-white">
+                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-orange-600 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
                   3
                 </div>
-                <div className="bg-gradient-to-br from-slate-50 to-white border border-slate-200 rounded-xl p-6 pt-10 h-full">
-                  <h3 className="text-lg font-semibold mb-2 text-orange-700">The Reality Verification</h3>
-                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4">Human</p>
+                <div className="bg-orange-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-orange-200 transition-colors">
+                  <h3 className="text-lg font-bold mb-2 text-gray-900">The Reality Verification</h3>
+                  <p className="text-xs text-gray-500 uppercase tracking-wide mb-4 font-semibold">Human</p>
                   <p className="text-sm text-gray-600 leading-relaxed">
                     This is our moat. A human subject-matter expert (typically a former Logistics Manager or Freight Broker) manually audits the draft. They ensure the routing logic makes sense and the terminology is precise.
                   </p>
@@ -234,7 +234,7 @@ const SupplyChainPage = () => {
       </section>
 
       {/* Capabilities Section */}
-      <section id="capabilities" className="py-24 bg-slate-50">
+      <section id="capabilities" className="py-24 bg-orange-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gray-900">
@@ -314,7 +314,7 @@ const SupplyChainPage = () => {
       </section>
 
       {/* Sample Teaser Section */}
-      <section className="py-24 bg-gradient-to-br from-slate-100 to-slate-200">
+      <section className="py-24 bg-orange-50">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
