@@ -83,7 +83,7 @@ const CybersecurityPage = () => {
             {/* Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-slate-900 tracking-tight">
               Zero-Trust Content Marketing for{" "}
-              <span className="text-emerald-500">Cybersecurity Leaders.</span>
+              <span className="text-blue-600">Cybersecurity Leaders.</span>
             </h1>
 
             {/* Subheadline */}
@@ -117,7 +117,7 @@ const CybersecurityPage = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-slate-900 tracking-tight">
               "ChatGPT Doesn't Know the Difference Between{" "}
               <span className="text-red-500">EDR</span> and{" "}
-              <span className="text-emerald-500">XDR</span>."
+              <span className="text-blue-600">XDR</span>."
             </h2>
 
             <p className="text-lg text-slate-600 mb-12 text-center max-w-3xl mx-auto">
@@ -160,7 +160,7 @@ const CybersecurityPage = () => {
               <p className="text-xl text-slate-700">
                 <span className="text-slate-900 font-bold">The Reality:</span>{" "}
                 You don't need a copywriter. You need a{" "}
-                <span className="text-emerald-500 font-bold">technical translator</span>.
+                <span className="text-blue-600 font-bold">technical translator</span>.
               </p>
             </div>
           </div>
@@ -274,7 +274,7 @@ const CybersecurityPage = () => {
                   <th className="text-left py-4 px-6 text-sm font-bold text-slate-900">Feature</th>
                   <th className="text-left py-4 px-6 text-sm font-semibold text-slate-500">Generalist Agencies</th>
                   <th className="text-left py-4 px-6 text-sm font-semibold text-slate-500">"Raw" ChatGPT/Jasper</th>
-                  <th className="text-left py-4 px-6 text-sm font-bold text-emerald-600">TrustDraft (Us)</th>
+                  <th className="text-left py-4 px-6 text-sm font-bold text-blue-600">TrustDraft (Us)</th>
                 </tr>
               </thead>
               <tbody>
@@ -293,9 +293,9 @@ const CybersecurityPage = () => {
                         {row.chatgpt}
                       </span>
                     </td>
-                    <td className="py-4 px-6 text-sm text-emerald-600 font-medium">
+                    <td className="py-4 px-6 text-sm text-blue-600 font-medium">
                       <span className="flex items-center gap-2">
-                        <Check className="w-4 h-4 text-emerald-500" />
+                        <Check className="w-4 h-4 text-blue-600" />
                         {row.us}
                       </span>
                     </td>
@@ -308,19 +308,19 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Sample Teaser Section */}
-      <section className="py-24 bg-slate-900">
+      <section className="py-24 bg-white">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white tracking-tight">
-              Don't Trust. <span className="text-emerald-400">Verify.</span>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 tracking-tight">
+              Don't Trust. <span className="text-blue-600">Verify.</span>
             </h2>
-            <p className="text-lg text-slate-300 mb-8 leading-relaxed">
+            <p className="text-lg text-slate-600 mb-8 leading-relaxed">
               We know you are skeptical. You should be. That's why we created a public library of sample work covering Cloud Workload Protection, IAM policies, and SIEM optimization.
             </p>
-            <p className="text-slate-400 mb-8">
+            <p className="text-slate-600 mb-8">
               Read a sample. Look for the jargon. Try to find a mistake.
             </p>
-            <Button size="lg" className="bg-white text-slate-900 hover:bg-slate-100 font-bold gap-2">
+            <Button size="lg" className="bg-blue-600 text-white hover:bg-blue-700 font-bold gap-2">
               Browse the Sample Library
               <ArrowRight className="w-4 h-4" />
             </Button>
