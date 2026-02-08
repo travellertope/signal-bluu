@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "node": "18.x"
+    },
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/index.html"
+        }
+    ]
+}
