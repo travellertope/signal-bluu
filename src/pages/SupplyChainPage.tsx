@@ -308,19 +308,19 @@ const SupplyChainPage = () => {
       </section>
 
       {/* Sample Teaser Section */}
-      <section className="py-24 bg-gradient-to-br from-slate-700 to-slate-900">
+      <section className="py-24 bg-gradient-to-br from-slate-100 to-slate-200">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
-              From Visibility to <span className="text-orange-400">Actionability</span>.
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-gray-900">
+              From Visibility to <span className="text-orange-600">Actionability</span>.
             </h2>
-            <p className="text-lg text-slate-300 mb-8 leading-relaxed">
+            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               We know you have "Dashboard Fatigue." That's why we created a sample library showing exactly how we write about the shift from seeing problems to fixing them.
             </p>
-            <p className="text-slate-400 mb-8">
+            <p className="text-gray-500 mb-8">
               Read our breakdown on "Agentic AI in Logistics." Look for the details on Detention fees. Try to find a flaw in the logic.
             </p>
-            <Button size="lg" className="bg-orange-500 hover:bg-orange-600 text-white font-semibold gap-2">
+            <Button size="lg" className="bg-orange-600 hover:bg-orange-700 text-white font-semibold gap-2">
               Browse Samples
               <ArrowRight className="w-4 h-4" />
             </Button>
@@ -381,6 +381,21 @@ const SupplyChainPage = () => {
           </div>
         </div>
       </section>
+
+      {/* Footer */}
+      <footer className="py-12 border-t border-gray-200 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <Link to="/" className="flex items-center gap-2">
+              <ShieldCheck className="w-5 h-5 text-orange-600" />
+              <span className="text-lg font-bold text-gray-900">Signal</span>
+            </Link>
+            <p className="text-sm text-gray-500">
+              © {new Date().getFullYear()} Signal. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 };
