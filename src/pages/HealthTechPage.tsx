@@ -306,15 +306,11 @@ export default function HealthTechPage() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-teal-50">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">Evidence-Based Marketing.</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Evidence-Based Marketing.</h2>
             <p className="text-lg text-gray-600 mb-8 leading-relaxed">
               We know you are tired of "fluff" pieces about wellness. That's why we created a sample
               library showing exactly how we handle heavy topics like Interoperability and
               Value-Based Care.
-            </p>
-            <p className="text-gray-600 mb-8 leading-relaxed">
-              Read our breakdown on "The TEFCA Timeline." Look for the technical accuracy on QHINs.
-              Try to find a compliance error.
             </p>
 
             <Button size="lg" className="bg-teal-600 hover:bg-teal-700 text-white font-semibold">
@@ -353,7 +349,7 @@ export default function HealthTechPage() {
       <section className="bg-gray-900 text-white py-24 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Treat Your Content Like a Medical Device.</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">Treat Your Content Like a Medical Device.</h2>
             <p className="text-lg text-gray-300 mb-10 leading-relaxed">
               High-volume, clinically accurate content is the only way to win trust in the skeptical
               healthcare market. Start your pilot for just $250.
