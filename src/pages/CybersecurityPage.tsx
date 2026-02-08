@@ -61,7 +61,7 @@ const CybersecurityPage = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-100">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <ShieldCheck className="w-6 h-6 text-emerald-500" />
+            <ShieldCheck className="w-6 h-6 text-blue-600" />
             <span className="text-xl font-bold text-slate-900">Signal</span>
           </Link>
           <div className="hidden md:flex items-center gap-8">
@@ -80,6 +80,12 @@ const CybersecurityPage = () => {
       <section className="relative pt-32 pb-24 overflow-hidden bg-white">
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
+            {/* Badge */}
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 rounded-full mb-8">
+              <Lock className="w-4 h-4 text-emerald-600" />
+              <span className="text-sm font-medium text-emerald-800">Cybersecurity Content Specialists</span>
+            </div>
+
             {/* Headline */}
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-slate-900 tracking-tight">
               Zero-Trust Content Marketing for{" "}
@@ -274,7 +280,7 @@ const CybersecurityPage = () => {
                   <th className="text-left py-4 px-6 text-sm font-bold text-slate-900">Feature</th>
                   <th className="text-left py-4 px-6 text-sm font-semibold text-slate-500">Generalist Agencies</th>
                   <th className="text-left py-4 px-6 text-sm font-semibold text-slate-500">"Raw" ChatGPT/Jasper</th>
-                  <th className="text-left py-4 px-6 text-sm font-bold text-blue-600">TrustDraft (Us)</th>
+                  <th className="text-left py-4 px-6 text-sm font-bold text-blue-600">Signal (Us)</th>
                 </tr>
               </thead>
               <tbody>

@@ -17,8 +17,14 @@ export default function HealthTechPage() {
       <Navbar />
 
       {/* HERO SECTION */}
-      <section className="relative overflow-hidden bg-white pt-20 pb-24 px-4 sm:px-6 lg:px-8">
+      <section className="relative overflow-hidden bg-white pt-32 pb-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
+          {/* Badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-teal-100 rounded-full mb-8">
+            <ShieldCheck className="w-4 h-4 text-teal-600" />
+            <span className="text-sm font-medium text-teal-800">HealthTech Content Specialists</span>
+          </div>
+
           <h1 className="text-5xl sm:text-6xl font-bold text-gray-900 mb-6 leading-tight">
             First, Do No Harm (To Your Brand Authority).
           </h1>
@@ -250,7 +256,7 @@ export default function HealthTechPage() {
                   <th className="text-left py-4 px-4 font-bold text-gray-900">Feature</th>
                   <th className="text-left py-4 px-4 font-bold text-gray-900">Generalist Agencies</th>
                   <th className="text-left py-4 px-4 font-bold text-gray-900">"Raw" ChatGPT/Jasper</th>
-                  <th className="text-left py-4 px-4 font-bold text-teal-600">TrustDraft (Us)</th>
+                  <th className="text-left py-4 px-4 font-bold text-teal-600">Signal (Us)</th>
                 </tr>
               </thead>
               <tbody>

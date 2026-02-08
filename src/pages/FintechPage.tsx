@@ -110,8 +110,8 @@ const FintechPage = () => {
               <a href="#capabilities" className="text-sm text-gray-600 hover:text-violet-600 transition-colors">Capabilities</a>
               <a href="#faq" className="text-sm text-gray-600 hover:text-violet-600 transition-colors">FAQ</a>
             </div>
-            <Button className="bg-violet-600 hover:bg-violet-700 text-white font-semibold">
-              Get Started
+            <Button className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold">
+              Request Samples
             </Button>
           </div>
         </div>
