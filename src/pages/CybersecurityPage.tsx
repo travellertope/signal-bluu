@@ -1,4 +1,4 @@
-import { Shield, Lock, AlertTriangle, Target, FileText, BookOpen, Users, Check, X, ArrowRight, ChevronDown, ChevronUp } from "lucide-react";
+import { ShieldCheck, Lock, AlertTriangle, Target, FileText, BookOpen, Users, Check, X, ArrowRight, ChevronDown, ChevronUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -55,7 +55,7 @@ const CybersecurityPage = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
         <div className="container mx-auto px-6 h-16 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2">
-            <Shield className="w-6 h-6 text-emerald-600" />
+            <ShieldCheck className="w-6 h-6 text-emerald-600" />
             <span className="text-xl font-bold text-gray-900">Signal</span>
           </Link>
           <div className="hidden md:flex items-center gap-8">
@@ -94,7 +94,7 @@ const CybersecurityPage = () => {
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
               <Button size="lg" className="bg-emerald-600 hover:bg-emerald-700 text-white font-semibold gap-2">
-                <Shield className="w-5 h-5" />
+                <ShieldCheck className="w-5 h-5" />
                 Deploy a Pilot Article
               </Button>
               <Button size="lg" variant="outline" className="border-emerald-300 text-emerald-700 hover:bg-emerald-50 hover:text-emerald-800 font-semibold">
@@ -387,7 +387,7 @@ const CybersecurityPage = () => {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-6">
             <Link to="/" className="flex items-center gap-2">
-              <Shield className="w-5 h-5 text-emerald-600" />
+              <ShieldCheck className="w-5 h-5 text-emerald-600" />
               <span className="text-lg font-bold text-gray-900">Signal</span>
             </Link>
             <p className="text-sm text-gray-500">
