@@ -9,6 +9,7 @@ import NotFound from "./pages/NotFound";
 import CybersecurityPage from "./pages/CybersecurityPage";
 import FintechPage from "./pages/FintechPage";
 import SupplyChainPage from "./pages/SupplyChainPage";
+import HealthTechPage from "./pages/HealthTechPage";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -20,10 +21,11 @@ const App = () => (
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/cybersecurity" element={<CybersecurityPage />} />
-          <Route path="/fintech" element={<FintechPage />} />
-          <Route path="/supply-chain" element={<SupplyChainPage />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+           <Route path="/cybersecurity" element={<CybersecurityPage />} />
+           <Route path="/fintech" element={<FintechPage />} />
+           <Route path="/supply-chain" element={<SupplyChainPage />} />
+           <Route path="/healthtech" element={<HealthTechPage />} />
+           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
