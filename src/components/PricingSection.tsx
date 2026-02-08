@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const plans = [
   {
     name: "The Pilot",
-    price: "$300",
+    price: "$250",
     period: "one-time",
     description: "Perfect for testing our quality.",
     features: [
@@ -17,7 +17,7 @@ const plans = [
   },
   {
     name: "Growth",
-    price: "$1,200",
+    price: "$900",
     period: "/month",
     description: "Best for Series A Startups.",
     features: [
@@ -31,7 +31,7 @@ const plans = [
   },
   {
     name: "Scale",
-    price: "$2,500",
+    price: "$2,000",
     period: "/month",
     description: "Best for Marketing Teams.",
     features: [
@@ -62,11 +62,10 @@ const PricingSection = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`relative rounded-xl p-8 border ${
-                plan.featured
+              className={`relative rounded-xl p-8 border ${plan.featured
                   ? "border-accent bg-accent/5 shadow-lg scale-105"
                   : "border-border bg-card"
-              }`}
+                }`}
             >
               {plan.featured && (
                 <div className="absolute -top-3 left-1/2 -translate-x-1/2">
@@ -93,11 +92,10 @@ const PricingSection = () => {
               </ul>
 
               <Button
-                className={`w-full ${
-                  plan.featured
+                className={`w-full ${plan.featured
                     ? "bg-accent text-accent-foreground hover:bg-accent/90"
                     : "bg-primary text-primary-foreground hover:bg-primary/90"
-                }`}
+                  }`}
               >
                 {plan.cta}
               </Button>
