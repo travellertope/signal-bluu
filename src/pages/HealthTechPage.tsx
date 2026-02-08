@@ -354,6 +354,21 @@ export default function HealthTechPage() {
           </Button>
         </div>
       </footer>
+
+      {/* Footer */}
+      <footer className="py-12 border-t border-gray-200 bg-white">
+        <div className="container mx-auto px-6">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <Link to="/" className="flex items-center gap-2">
+              <ShieldCheck className="w-5 h-5 text-teal-600" />
+              <span className="text-lg font-bold text-gray-900">Signal</span>
+            </Link>
+            <p className="text-sm text-gray-500">
+              © {new Date().getFullYear()} Signal. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
