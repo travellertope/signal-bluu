@@ -81,9 +81,9 @@ const CybersecurityPage = () => {
         <div className="container mx-auto px-6 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-100 rounded-full mb-8">
-              <Lock className="w-4 h-4 text-emerald-600" />
-              <span className="text-sm font-medium text-emerald-800">Cybersecurity Content Specialists</span>
+            <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 border border-blue-600 rounded-full mb-8">
+              <Lock className="w-4 h-4 text-blue-600" />
+              <span className="text-sm font-medium text-blue-800">Cybersecurity Content Specialists</span>
             </div>
 
             {/* Headline */}
@@ -117,7 +117,7 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Pain Section */}
-      <section id="pain" className="py-24 bg-slate-50">
+      <section id="pain" className="py-24 bg-blue-50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-center text-slate-900 tracking-tight">
@@ -178,7 +178,7 @@ const CybersecurityPage = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 tracking-tight">
-              Our Protocol: <span className="text-emerald-500">"The Human Firewall"</span>
+              Our Protocol: <span className="text-blue-600">"The Human Firewall"</span>
             </h2>
             <p className="text-lg text-slate-600">
               We don't just "edit" AI. We sandbox it.
@@ -189,10 +189,10 @@ const CybersecurityPage = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {/* Step 1 */}
               <div className="relative group">
-                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
+                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
                   1
                 </div>
-                <div className="bg-slate-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-blue-200 transition-colors">
+                <div className="bg-blue-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-blue-200 transition-colors">
                   <h3 className="text-lg font-bold mb-2 text-slate-900">The Threat Intel</h3>
                   <p className="text-xs text-slate-500 uppercase tracking-wide mb-4 font-semibold">Strategy</p>
                   <p className="text-sm text-slate-600 leading-relaxed">
@@ -203,10 +203,10 @@ const CybersecurityPage = () => {
 
               {/* Step 2 */}
               <div className="relative group">
-                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
+                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
                   2
                 </div>
-                <div className="bg-slate-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-blue-200 transition-colors">
+                <div className="bg-blue-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-blue-200 transition-colors">
                   <h3 className="text-lg font-bold mb-2 text-slate-900">The Core Generation</h3>
                   <p className="text-xs text-slate-500 uppercase tracking-wide mb-4 font-semibold">AI</p>
                   <p className="text-sm text-slate-600 leading-relaxed">
@@ -217,10 +217,10 @@ const CybersecurityPage = () => {
 
               {/* Step 3 */}
               <div className="relative group">
-                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-slate-900 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
+                <div className="absolute -top-4 -left-4 w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center text-lg font-bold text-white shadow-sm ring-4 ring-white z-10">
                   3
                 </div>
-                <div className="bg-slate-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-emerald-200 transition-colors">
+                <div className="bg-blue-50 border border-slate-100 rounded-xl p-8 h-full group-hover:border-emerald-200 transition-colors">
                   <h3 className="text-lg font-bold mb-2 text-slate-900">The Identity Verification</h3>
                   <p className="text-xs text-slate-500 uppercase tracking-wide mb-4 font-semibold">Human</p>
                   <p className="text-sm text-slate-600 leading-relaxed">
@@ -234,7 +234,7 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Capabilities Section */}
-      <section id="capabilities" className="py-24 bg-slate-50">
+      <section id="capabilities" className="py-24 bg-blue-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900 tracking-tight">
@@ -314,7 +314,7 @@ const CybersecurityPage = () => {
       </section>
 
       {/* Sample Teaser Section */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-blue-50">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl md:text-4xl font-bold mb-6 text-slate-900 tracking-tight">
