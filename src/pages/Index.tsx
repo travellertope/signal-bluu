@@ -4,6 +4,7 @@ import RiskSection from "@/components/RiskSection";
 import IndustrySelector from "@/components/IndustrySelector";
 import ProcessSection from "@/components/ProcessSection";
 import PricingSection from "@/components/PricingSection";
+import FAQSection from "@/components/FAQSection";
 import Footer from "@/components/Footer";
 
 import SEO from "@/components/SEO";
@@ -22,6 +23,7 @@ const Index = () => {
       <IndustrySelector />
       <ProcessSection />
       <PricingSection />
+      <FAQSection />
       <Footer />
     </div>
   );
